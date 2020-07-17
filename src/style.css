@@ -1,10 +1,12 @@
 body{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    align-content: center;
 }
 @media screen and (max-width: 850px){
     body{
-        margin: 0%
+        margin-left: 4vw;
+        margin-right: 4vw;
     }
     div#head img{
         visibility: hidden;
