@@ -3,18 +3,6 @@ body{
     margin-right: 15vw;
     align-content: center;
 }
-@media screen and (max-width: 850px){
-    body{
-        margin-left: 4vw;
-        margin-right: 4vw;
-    }
-    div#head img{
-        visibility: hidden;
-    }
-    div#head {
-        margin: 0px;
-    }
-}
 img{
     width: 50vw;
 }
@@ -27,16 +15,19 @@ h1, h2{
     text-align: center;
     vertical-align: middle;
 }
-h1:first-of-type{
-    font-size: 3em;
-}
+h1 { font-size: 2.7em }
+h2 { font-size: 1.7em }
 div#head{
     display: flex;
     align-content: center;
+    text-align: center;
     margin: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 div#head h1{
-    margin: 15px
+    margin: 15px;
+    font-size: 3.2em;
 }
 div#head img{
     width:100px;
@@ -75,4 +66,17 @@ pre code{
 blockquote p{
     color: #928374;
     font-style: italic;
+}
+@media screen and (max-width: 850px){
+    body{
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    div#head img{
+        visibility: hidden;
+    }
+    div#head {
+        margin: 0px;
+        padding: 0px;
+    }
 }
