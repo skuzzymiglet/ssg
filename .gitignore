@@ -1,7 +1,7 @@
 *
 !src/style.css
 !.gitignore
-!deploy_template.sh
+!deploy-template.sh
 !ssg5
 !src/_index-template.md
 !src/_header-template.html
