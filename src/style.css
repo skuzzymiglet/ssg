@@ -1,0 +1,76 @@
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+@media screen and (max-width: 850px){
+    body{
+        margin: 0%
+    }
+    div#head img{
+        visibility: hidden;
+    }
+    div#head {
+        margin: 0px;
+    }
+}
+img{
+    width: 50vw;
+}
+* {
+    font-family: IBM Plex Mono, sans-serif;
+    background-color: #ebdbb2;
+    color: #282828;
+}
+h1, h2{
+    text-align: center;
+    vertical-align: middle;
+}
+h1:first-of-type{
+    font-size: 3em;
+}
+div#head{
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+div#head h1{
+    margin: 15px
+}
+div#head img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+article ul{
+    list-style-type: none;
+    padding: 5px;
+    text-align: justify;
+    font-size: 1.4em;
+}
+article ul li{
+    margin-bottom: 20px
+}
+p {
+    font-size: 1.4em;
+}
+a{
+    font: italic 20px IBM Plex Mono, mono;
+    text-decoration: none;
+    color: #cc241d;
+}
+p code{
+    font-size: inherit;
+}
+code, pre code{
+    background-color: #3c3836;
+    color: #ebdbb2;
+    padding: 1px;
+    font-size: 1.1em;
+}
+pre code{
+    margin: 2px;
+}
+blockquote p{
+    color: #928374;
+    font-style: italic;
+}
