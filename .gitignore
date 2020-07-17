@@ -4,3 +4,6 @@
 !deploy_template.sh
 !ssg5
 !src/_index-template.md
+!src/_header-template.html
+!src/favicon.ico
+!src/favicon.png
