@@ -10,3 +10,5 @@
 !src/img/avatar.webp
 !README.md
 !src/img/site.webp
+!dst
+dst/*
